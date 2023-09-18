@@ -210,50 +210,6 @@
         changedWord = "";
       }
       return changedArray;
-
-
-      /*
-      let result = [];
-
-      for (let idx in array) {
-        
-        let word = array[idx];
-        let modifiedWord = "";
-        for (let idx in word) {
-
-          let char = word[idx];
-          if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
-            let upperCased = char.toUpperCase();
-            modifiedWord += upperCased;
-          } else {
-            modifiedWord += char;
-          }
-        }
-        result.push(modifiedWord);
-      }
-      return result;
-      */
-      /*
-      let word = "";
-      let char = "";
-      let realWord = "";
-      let fixArray = [];
-      for (let i in array) {
-        word = array[i];
-        realWord = "";
-        for (let l; l < word.length; l++) {
-          char = word[l];
-          if (word === "a" || word === "e" || word === "i" || word === "o" || word === "u") {
-            realWord += (char.toUpperCase());
-          }
-          else {
-            realWord += char;
-          }
-        }
-        fixArray.push(realWord);
-      }
-      return fixArray;
-      */
     }
 
     // 👉 CHALLENGE 9
